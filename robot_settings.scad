@@ -8,3 +8,6 @@ rail_inset = 7;
 
 rail_thickness = 3.9;
 rail_length = 200;
+
+pinion_gear_thickness = 6;
+pinion_gear_hole_diameter = 4;
