@@ -20,12 +20,12 @@ module robot_rail() {
 translate([main_box_x / 2, 22, rail_thickness])
 ball_bearing();
 
-translate([-20, 0, 0])
-engine_holder_cutouts();
+//translate([-20, 0, 0])
+//engine_holder_cutouts();
 robot_rail();
 
 
-translate([32, 12,-3.8])
+translate([32, -12,3.8])
 InvoluteGear_rack();
 
 
