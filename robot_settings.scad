@@ -8,6 +8,7 @@ rail_inset = 7;
 
 rail_thickness = 3.9;
 rail_length = 60;
+rail_width = 200;
 
 gears_module = 1;
 pinion_gear_teeth = 30;
@@ -19,12 +20,10 @@ gear_post_height = 2 * pinion_gear_width + rail_thickness ;
 
 rack_module = 1;
 rack_length = main_box_x / 2;
-rack_height = 5;
+rack_height = 7;
 rack_width = 5;
 rack_teeth = 30;
 rack_bore = 3;
 
 // tire hardware
-axle_length = 25;
-armature_holder_height = 2;
-armature_holder_radius = 10;
+axle_length = 33;

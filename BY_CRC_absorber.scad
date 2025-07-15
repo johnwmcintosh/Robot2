@@ -11,15 +11,15 @@ $fn = 60; // facets, bigger values -> memory probs
           
  module shock_absorber (
  
-  height = 7, // the taller, the more twists needed
+  height = 12, // the taller, the more twists needed
   twist = 0.7, // helix #turns around center
              // watch printability !!
              // more turns -> smaller angle
-  step = 12, // draw step helixes
+  step = 8, // draw step helixes
             // should be divisor of 360
             // more helixes -> less space in between
-  offset = 1.5, // distance from center, kind of radius
-  radius = .2 // helix and torus radius
+  offset = 4, // distance from center, kind of radius
+  radius = .7 // helix and torus radius
               // the more, the harder it will be
 )
 {
